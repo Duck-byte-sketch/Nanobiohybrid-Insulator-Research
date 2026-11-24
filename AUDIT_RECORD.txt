@@ -19,3 +19,21 @@ mg_urea6_gas  | CN(Mg-O)=6 | nearest O (A): [1.98, 1.98, 1.98, 1.98, 1.98, 1.98]
 
 --- Phase: SOLV ---
 
+=== PYSCF DFT SINGLE-POINT VALIDATION (GAS PHASE, n=4) ===
+[DFT B3LYP-D3BJ/def2-SVP] Mg2+             :    -199.17113857 Eh | converged=True
+[DFT B3LYP-D3BJ/def2-SVP] DME              :    -308.64183326 Eh | converged=True
+[DFT B3LYP-D3BJ/def2-SVP] Urea             :    -225.11031106 Eh | converged=True
+=== PYSCF DFT SINGLE-POINT VALIDATION (GAS PHASE, n=4) ===
+[DFT B3LYP-D3BJ/def2-SVP] Mg2+             :    -199.17113857 Eh | converged=True
+[DFT B3LYP-D3BJ/def2-SVP] DME              :    -308.64183326 Eh | converged=True
+[DFT B3LYP-D3BJ/def2-SVP] Urea             :    -225.11031106 Eh | converged=True
+=== PYSCF DFT SINGLE-POINT VALIDATION (DIRECT SCF, GAS PHASE, n=4) ===
+[DFT B3LYP-D3BJ/def2-SVP] [Mg(Urea)4]2+    :   -1099.92583679 Eh | converged=True
+[DFT B3LYP-D3BJ/def2-SVP] [Mg(DME)4]2+     :   -1434.30033084 Eh | converged=True
+
+=== BENCHMARK SUMMARY: GFN2-xTB vs. B3LYP-D3BJ/def2-SVP ===
+DFT Total Formation Energy [Mg(DME)4]2+  :  -352.57 kcal/mol
+DFT Total Formation Energy [Mg(Urea)4]2+ :  -196.70 kcal/mol
+Ligand Exchange ([Mg(DME)4]2+ + 4 Urea -> [Mg(Urea)4]2+ + 4 DME):
+  GFN2-xTB :    84.33 kcal/mol
+  DFT      :   155.88 kcal/mol
