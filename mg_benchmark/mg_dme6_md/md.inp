@@ -1,0 +1,11 @@
+$md
+   temp=350.0
+   time=10.0
+   dump=1000.0
+   step=2.0
+   shake=1
+$end
+$wall
+   potential=logfermi
+   sphere: 16.0, all
+$end
