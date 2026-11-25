@@ -1,0 +1,29 @@
+=== PHASE 2: NANOBIOHYBRID INSULATOR BINDING-SITE SCREEN (GFN2-xTB / ALPB-THF) ===
+[Free Ligand] DME             (q=+0) :     -21.779672 Eh
+[Free Ligand] Amide_NMA       (q=+0) :     -16.999858 Eh
+[Free Ligand] Alkoxy_OH       (q=+0) :     -18.624449 Eh
+[Free Ligand] Carboxylate     (q=-1) :     -14.259066 Eh
+[Free Ligand] Zwitterion_Bet  (q=+0) :     -27.377754 Eh
+
+--- Optimizing [Mg(DME)2(Ligand)] Complexes in ALPB(THF) ---
+[Complex] Mg(DME)2(DME           ) | q=+2 | CN=6 | Mg-O (A)=[np.float64(1.95), np.float64(1.95), np.float64(1.95), np.float64(1.95), np.float64(1.95), np.float64(1.95)]
+[Complex] Mg(DME)2(Amide_NMA     ) | q=+2 | CN=5 | Mg-O (A)=[np.float64(1.8), np.float64(1.87), np.float64(1.9), np.float64(1.93), np.float64(1.96)]
+[Complex] Mg(DME)2(Alkoxy_OH     ) | q=+2 | CN=5 | Mg-O (A)=[np.float64(1.87), np.float64(1.9), np.float64(1.9), np.float64(1.91), np.float64(1.94), np.float64(4.18)]
+[Complex] Mg(DME)2(Carboxylate   ) | q=+1 | CN=6 | Mg-O (A)=[np.float64(1.96), np.float64(1.96), np.float64(1.97), np.float64(1.97), np.float64(1.99), np.float64(1.99)]
+[Complex] Mg(DME)2(Zwitterion_Bet) | q=+2 | CN=6 | Mg-O (A)=[np.float64(1.93), np.float64(1.94), np.float64(1.95), np.float64(1.96), np.float64(2.01), np.float64(2.02)]
+
+=== SUMMARY: DME-DISPLACEMENT THERMODYNAMICS IN ALPB(THF) ===
+Motif            | Bio-Analogue                 | CN | dE_swap (kcal/mol) | Mg-O Shell (A)
+---------------------------------------------------------------------------------------------------------
+DME              | Baseline Ether Solvent       |  6 |               0.00 | [np.float64(1.95), np.float64(1.95), np.float64(1.95), np.float64(1.95), np.float64(1.95), np.float64(1.95)]
+Amide_NMA        | Silk/Peptide C=O Donor       |  5 |              11.69 | [np.float64(1.8), np.float64(1.87), np.float64(1.9), np.float64(1.93), np.float64(1.96)]
+Alkoxy_OH        | Cellulose/Chitosan O,O-Chelate |  5 |              23.41 | [np.float64(1.87), np.float64(1.9), np.float64(1.9), np.float64(1.91), np.float64(1.94), np.float64(4.18)]
+Carboxylate      | Alginate Anionic Anchor      |  6 |             -31.14 | [np.float64(1.96), np.float64(1.96), np.float64(1.97), np.float64(1.97), np.float64(1.99), np.float64(1.99)]
+Zwitterion_Bet   | Phospholipid/Betaine Dipole  |  6 |             -12.34 | [np.float64(1.93), np.float64(1.94), np.float64(1.95), np.float64(1.96), np.float64(2.01), np.float64(2.02)]
+=== PHASE 3: DFT VALIDATION OF ZWITTERIONIC BETAINE DME-DISPLACEMENT ===
+[DFT B3LYP-D3BJ/def2-SVP] DME                    :    -308.64188829 Eh | converged=True
+[DFT B3LYP-D3BJ/def2-SVP] Zwitterion_Bet         :    -402.03174931 Eh | converged=True
+[DFT B3LYP-D3BJ/def2-SVP] [Mg(DME)3]2+           :   -1125.67931873 Eh | converged=True
+[DFT B3LYP-D3BJ/def2-SVP] [Mg(DME)2(Bet)]2+      :   -1219.12801865 Eh | converged=True
+
+[RESULT] Gas-Phase DFT dE_swap ([Mg(DME)3]2+ + Betaine -> [Mg(DME)2(Bet)]2+ + DME):   -36.92 kcal/mol
