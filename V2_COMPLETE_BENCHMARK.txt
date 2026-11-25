@@ -1,0 +1,11 @@
+=== STEP 1: GFN2-xTB / ALPB(THF) NEUTRAL-LIGAND (q=+2) SCREEN ===
+DME              | Baseline Ether Solvent         | CN=6 | dE_swap(xTB-THF)=  +0.00 kcal/mol | Mg-O=[1.95, 1.95, 1.95, 1.95, 1.95, 1.95]
+Methoxyethanol   | Cellulose/Chitosan O,O-Motif   | CN=5 | dE_swap(xTB-THF)= +23.41 kcal/mol | Mg-O=[1.87, 1.89, 1.9, 1.92, 1.93, 4.16]
+Amide_DMA        | Aprotic Peptide/Silk C=O Donor | CN=5 | dE_swap(xTB-THF)= +10.77 kcal/mol | Mg-O=[1.78, 1.87, 1.89, 1.95, 1.96]
+Zwitterion_Bet   | Phospholipid/Betaine Dipole    | CN=6 | dE_swap(xTB-THF)= -12.35 kcal/mol | Mg-O=[1.93, 1.94, 1.95, 1.96, 2.01, 2.02]
+
+=== STEP 2: B3LYP-D3BJ/def2-TZVP / IEF-PCM(THF) BENCHMARK ===
+[DFT-TZVP-PCM(THF)] Free DME                  (q=+0, S=0) :    -309.00994568 Eh | conv=True
+[DFT-TZVP-PCM(THF)] Free Methoxyethanol       (q=+0, S=0) :    -269.69373563 Eh | conv=True
+[DFT-TZVP-PCM(THF)] Free Amide_DMA (aprotic)  (q=+0, S=0) :    -287.97617863 Eh | conv=True
+[DFT-TZVP-PCM(THF)] Free Zwitterion_Bet       (q=+0, S=0) :    -402.54246814 Eh | conv=True

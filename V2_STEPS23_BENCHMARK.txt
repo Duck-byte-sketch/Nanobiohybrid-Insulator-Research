@@ -1,0 +1,16 @@
+=== STEP 2: B3LYP-D3BJ/def2-TZVP / IEF-PCM(THF) BENCHMARK ===
+[DFT-TZVP-PCM(THF)] Free DME                  (q=+0, S=0) :    -309.00994568 Eh | conv=True
+[DFT-TZVP-PCM(THF)] Free Methoxyethanol       (q=+0, S=0) :    -269.69373563 Eh | conv=True
+[DFT-TZVP-PCM(THF)] Free Amide_DMA (aprotic)  (q=+0, S=0) :    -287.97617863 Eh | conv=True
+[DFT-TZVP-PCM(THF)] Free Zwitterion_Bet       (q=+0, S=0) :    -402.54246814 Eh | conv=True
+[DFT-TZVP-PCM(THF)] [Mg(DME)3]2+              (q=+2, S=0) :   -1127.00960969 Eh | conv=True
+[DFT-TZVP-PCM(THF)] [Mg(DME)2(MeOEtOH)]2+     (q=+2, S=0) :   -1087.66309524 Eh | conv=True
+[DFT-TZVP-PCM(THF)] [Mg(DME)2(DMA)]2+         (q=+2, S=0) :   -1105.96045504 Eh | conv=True
+[DFT-TZVP-PCM(THF)] [Mg(DME)2(Bet)]2+         (q=+2, S=0) :   -1220.55739072 Eh | conv=True
+
+=== CONSISTENT SOLVENT-PHASE SWAP ENERGIES (B3LYP-D3BJ/def2-TZVP/PCM-THF) ===
+Methoxyethanol         dE_swap :   +19.02 kcal/mol
+Amide_DMA (aprotic)    dE_swap :    +9.66 kcal/mol
+Zwitterion_Bet         dE_swap :    -9.57 kcal/mol
+
+=== VERTICAL ELECTRON REDUCTION IN PCM(THF): [Complex]2+ + e- -> [Complex].+ ===
