@@ -1,0 +1,37 @@
+=== PART A: ELECTRONIC INSULATION (B3LYP-D3BJ/def2-SVP HOMO-LUMO GAPS) ===
+[B3LYP-D3BJ/def2-SVP] Free DME (Electrolyte) | HOMO=  -6.78 eV | LUMO=   1.66 eV | Gap=  8.44 eV
+[B3LYP-D3BJ/def2-SVP] Free Amide (NMA)       | HOMO=  -6.66 eV | LUMO=   0.95 eV | Gap=  7.61 eV
+[B3LYP-D3BJ/def2-SVP] Free Zwitterion_Bet    | HOMO=  -5.01 eV | LUMO=   0.05 eV | Gap=  5.06 eV
+[B3LYP-D3BJ/def2-SVP] [Mg(DME)2(Bet)]2+      | HOMO= -14.10 eV | LUMO=  -6.28 eV | Gap=  7.82 eV
+
+=== PART B: Mg2+ MIGRATION BARRIER SCAN (GFN2-xTB / ALPB-THF) ===
+x_Mg (A) |  Pure Betaine (kcal/mol) | Betaine+Amide Bridge (kcal/mol)
+----------------------------------------------------------------------
+   -1.70 |                   314.97 |                          325.26
+   -1.27 |                    32.48 |                           37.30
+   -0.85 |                     0.10 |                            1.16
+   -0.43 |                     0.00 |                            0.00
+    0.00 |                     1.76 |                            2.69
+    0.43 |                     1.53 |                            3.65
+    0.85 |                     4.21 |                            8.52
+    1.28 |                    53.77 |                           61.31
+    1.70 |                   440.74 |                          452.62
+
+[BARRIER SUMMARY] Pure Zwitterionic Channel E_a   : 440.74 kcal/mol
+[BARRIER SUMMARY] Hybrid Betaine-Amide Bridge E_a : 452.62 kcal/mol
+[BARRIER REDUCTION] Cooperative Amide Bridge dE_a : +11.89 kcal/mol
+=== WIDE POLYMER SPACING (7.4 A): Mg2+ HOPPING BARRIER (GFN2-xTB / ALPB-THF) ===
+x_Mg (A) |  Pure Betaine (kcal/mol) | Betaine+Amide Bridge (kcal/mol)
+----------------------------------------------------------------------
+   -1.75 |                     0.00 |                            0.00
+   -1.25 |                    17.23 |                            7.05
+   -0.75 |                    34.90 |                           17.06
+   -0.25 |                    45.81 |                           24.33
+    0.25 |                    46.38 |                           25.43
+    0.75 |                    36.50 |                           20.15
+    1.25 |                    19.76 |                           11.11
+    1.75 |                     3.23 |                            3.89
+
+Wide-Spacing Barrier (Pure Betaine)         :  46.38 kcal/mol
+Wide-Spacing Barrier (Betaine + Amide)      :  25.43 kcal/mol
+Cooperative Amide Bridge Barrier Reduction  : -20.95 kcal/mol
