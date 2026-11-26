@@ -1,0 +1,8 @@
+=== PART 1: VERTICAL ELECTRON REDUCTION & SPIN LOCALIZATION (GFN2-xTB / ALPB-THF) ===
+Control_[Mg(DME)3]2+        | VEA= +3.94 eV | E_red(vs Mg/Mg2+)~ +1.87 V | shift=   0.0 | spin={}
+Complex_[Mg(DME)2(DMA)]2+   | VEA= +5.77 eV | E_red(vs Mg/Mg2+)~ +3.70 V | shift= 1.829 | spin={}
+Complex_[Mg(DME)2(Bet)]2+   | VEA= +4.98 eV | E_red(vs Mg/Mg2+)~ +2.91 V | shift= 1.036 | spin={}
+Neutral_Free_DME            | VEA= -1.67 eV | E_red(vs Mg/Mg2+)~ -3.74 V | shift=  None | spin={}
+Neutral_Free_DMA            | VEA= +3.56 eV | E_red(vs Mg/Mg2+)~ +1.49 V | shift=  None | spin={}
+Neutral_Free_Betaine        | VEA= +2.89 eV | E_red(vs Mg/Mg2+)~ +0.82 V | shift=  None | spin={}
+Saved Part 1 cleanly to results/verified_v2_data.json!

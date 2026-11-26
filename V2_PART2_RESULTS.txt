@@ -1,0 +1,15 @@
+=== EXTRACTING DOUBLET SPIN LOCALIZATION (Mg vs. LIGAND) ===
+Control_[Mg(DME)3]2+        | Mg_spin=+0.000 | Lig_spin=+0.000 | top=[]
+Complex_[Mg(DME)2(DMA)]2+   | Mg_spin=+0.000 | Lig_spin=+0.000 | top=[]
+Complex_[Mg(DME)2(Bet)]2+   | Mg_spin=+0.000 | Lig_spin=+0.000 | top=[]
+Neutral_Free_DME            | Mg_spin=+0.000 | Lig_spin=+0.000 | top=[]
+Neutral_Free_DMA            | Mg_spin=+0.000 | Lig_spin=+0.000 | top=[]
+Neutral_Free_Betaine        | Mg_spin=+0.000 | Lig_spin=+0.000 | top=[]
+
+=== PART 2: FORWARD & REVERSE RELAXED [Mg(DME)]2+ HOPPING SCANS ===
+pure_betaine_fwd     | Min_L=-1.80 A, TS=+0.00 A, Min_R=+1.80 A | Ea(fwd)=46.65 kcal/mol (2.02 eV) | Ea(rev)=46.21 kcal/mol (2.00 eV)
+pure_betaine_rev     | Min_L=-0.77 A, TS=+0.51 A, Min_R=+0.77 A | Ea(fwd)= 6.09 kcal/mol (0.26 eV) | Ea(rev)= 0.84 kcal/mol (0.04 eV)
+hybrid_dma_fwd       | Min_L=-1.80 A, TS=+0.00 A, Min_R=+1.80 A | Ea(fwd)=25.33 kcal/mol (1.10 eV) | Ea(rev)=24.22 kcal/mol (1.05 eV)
+hybrid_dma_rev       | Min_L=-0.26 A, TS=+0.00 A, Min_R=+0.77 A | Ea(fwd)= 4.83 kcal/mol (0.21 eV) | Ea(rev)= 8.61 kcal/mol (0.37 eV)
+
+All verified results saved to results/verified_v2_data.json!
