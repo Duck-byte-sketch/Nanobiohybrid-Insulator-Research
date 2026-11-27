@@ -279,5 +279,521 @@
       "Ea_fwd_eV": 0.209,
       "Ea_rev_eV": 0.374
     }
+  },
+  "multistart_hopping_envelope": {
+    "pure_betaine_envelope": {
+      "xs_valid": [
+        -1.8,
+        -1.543,
+        -1.286,
+        -1.029,
+        -0.771,
+        -0.514,
+        -0.257,
+        0.0,
+        0.257,
+        0.514,
+        0.771,
+        1.029,
+        1.286,
+        1.543,
+        1.8
+      ],
+      "abs_energies_eh": [
+        -76.56876359,
+        -76.55822615,
+        -76.54281555,
+        -76.52657375,
+        -76.51247847,
+        -76.50206276,
+        -76.49558731,
+        -76.49578211,
+        -76.4972814,
+        -76.50416523,
+        -76.51416572,
+        -76.52740842,
+        -76.5469841,
+        -76.55846213,
+        -76.56793501
+      ],
+      "rel_e_kcal": [
+        0.0,
+        6.612,
+        16.283,
+        26.475,
+        35.319,
+        41.855,
+        45.919,
+        45.797,
+        44.856,
+        40.536,
+        34.261,
+        25.951,
+        13.667,
+        6.464,
+        0.52
+      ],
+      "points": [
+        {
+          "x_A": -1.8,
+          "abs_energy_eh": -76.56876359,
+          "winning_seed": "pert_zneg",
+          "seed_spread_kcal": 79.29,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 0.0
+        },
+        {
+          "x_A": -1.543,
+          "abs_energy_eh": -76.55822615,
+          "winning_seed": "pert_zpos",
+          "seed_spread_kcal": 70.56,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 6.612
+        },
+        {
+          "x_A": -1.286,
+          "abs_energy_eh": -76.54281555,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 60.67,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 16.283
+        },
+        {
+          "x_A": -1.029,
+          "abs_energy_eh": -76.52657375,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 49.37,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 26.475
+        },
+        {
+          "x_A": -0.771,
+          "abs_energy_eh": -76.51247847,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 39.86,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 35.319
+        },
+        {
+          "x_A": -0.514,
+          "abs_energy_eh": -76.50206276,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 33.83,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 41.855
+        },
+        {
+          "x_A": -0.257,
+          "abs_energy_eh": -76.49558731,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 35.0,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 45.919
+        },
+        {
+          "x_A": 0.0,
+          "abs_energy_eh": -76.49578211,
+          "winning_seed": "pert_zneg",
+          "seed_spread_kcal": 34.45,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 45.797
+        },
+        {
+          "x_A": 0.257,
+          "abs_energy_eh": -76.4972814,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 34.84,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 44.856
+        },
+        {
+          "x_A": 0.514,
+          "abs_energy_eh": -76.50416523,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 40.78,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 40.536
+        },
+        {
+          "x_A": 0.771,
+          "abs_energy_eh": -76.51416572,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 46.24,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 34.261
+        },
+        {
+          "x_A": 1.029,
+          "abs_energy_eh": -76.52740842,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 55.04,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 25.951
+        },
+        {
+          "x_A": 1.286,
+          "abs_energy_eh": -76.5469841,
+          "winning_seed": "pert_zneg",
+          "seed_spread_kcal": 69.33,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 13.667
+        },
+        {
+          "x_A": 1.543,
+          "abs_energy_eh": -76.55846213,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 75.6,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 6.464
+        },
+        {
+          "x_A": 1.8,
+          "abs_energy_eh": -76.56793501,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 81.36,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 0.52
+        }
+      ],
+      "endpoint_relaxation": {
+        "left_min_eh": -76.57061919,
+        "left_min_mg_x_A": -1.946,
+        "right_min_eh": -76.5698703,
+        "right_min_mg_x_A": 1.964,
+        "xtb_path_returncode": 1
+      }
+    },
+    "hybrid_dma_envelope": {
+      "xs_valid": [
+        -1.8,
+        -1.543,
+        -1.286,
+        -1.029,
+        -0.771,
+        -0.514,
+        -0.257,
+        0.0,
+        0.257,
+        0.514,
+        0.771,
+        1.029,
+        1.286,
+        1.543,
+        1.8
+      ],
+      "abs_energies_eh": [
+        -96.76735862,
+        -96.76938004,
+        -96.75863819,
+        -96.74905199,
+        -96.73905029,
+        -96.73478506,
+        -96.73002943,
+        -96.72911074,
+        -96.73180491,
+        -96.73345159,
+        -96.74052327,
+        -96.74984292,
+        -96.75968285,
+        -96.76513064,
+        -96.76550914
+      ],
+      "rel_e_kcal": [
+        1.268,
+        0.0,
+        6.741,
+        12.756,
+        19.032,
+        21.709,
+        24.693,
+        25.269,
+        23.579,
+        22.545,
+        18.108,
+        12.26,
+        6.085,
+        2.667,
+        2.429
+      ],
+      "points": [
+        {
+          "x_A": -1.8,
+          "abs_energy_eh": -96.76735862,
+          "winning_seed": "pert_zneg",
+          "seed_spread_kcal": 54.26,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 1.268
+        },
+        {
+          "x_A": -1.543,
+          "abs_energy_eh": -96.76938004,
+          "winning_seed": "pert_zpos",
+          "seed_spread_kcal": 53.41,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 0.0
+        },
+        {
+          "x_A": -1.286,
+          "abs_energy_eh": -96.75863819,
+          "winning_seed": "pert_zpos",
+          "seed_spread_kcal": 46.4,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 6.741
+        },
+        {
+          "x_A": -1.029,
+          "abs_energy_eh": -96.74905199,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 39.75,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 12.756
+        },
+        {
+          "x_A": -0.771,
+          "abs_energy_eh": -96.73905029,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 31.72,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 19.032
+        },
+        {
+          "x_A": -0.514,
+          "abs_energy_eh": -96.73478506,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 32.16,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 21.709
+        },
+        {
+          "x_A": -0.257,
+          "abs_energy_eh": -96.73002943,
+          "winning_seed": "pert_zneg",
+          "seed_spread_kcal": 21.0,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 24.693
+        },
+        {
+          "x_A": 0.0,
+          "abs_energy_eh": -96.72911074,
+          "winning_seed": "pert_zneg",
+          "seed_spread_kcal": 25.27,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 25.269
+        },
+        {
+          "x_A": 0.257,
+          "abs_energy_eh": -96.73180491,
+          "winning_seed": "pert_zpos",
+          "seed_spread_kcal": 21.46,
+          "n_converged_seeds": 3,
+          "rel_e_kcal": 23.579
+        },
+        {
+          "x_A": 0.514,
+          "abs_energy_eh": -96.73345159,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 32.41,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 22.545
+        },
+        {
+          "x_A": 0.771,
+          "abs_energy_eh": -96.74052327,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 28.52,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 18.108
+        },
+        {
+          "x_A": 1.029,
+          "abs_energy_eh": -96.74984292,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 32.61,
+          "n_converged_seeds": 3,
+          "rel_e_kcal": 12.26
+        },
+        {
+          "x_A": 1.286,
+          "abs_energy_eh": -96.75968285,
+          "winning_seed": "pert_zneg",
+          "seed_spread_kcal": 44.21,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 6.085
+        },
+        {
+          "x_A": 1.543,
+          "abs_energy_eh": -96.76513064,
+          "winning_seed": "pert_zpos",
+          "seed_spread_kcal": 53.97,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 2.667
+        },
+        {
+          "x_A": 1.8,
+          "abs_energy_eh": -96.76550914,
+          "winning_seed": "fwd_chain",
+          "seed_spread_kcal": 80.93,
+          "n_converged_seeds": 4,
+          "rel_e_kcal": 2.429
+        }
+      ],
+      "endpoint_relaxation": {
+        "left_min_eh": -96.78100301,
+        "left_min_mg_x_A": -1.757,
+        "right_min_eh": -96.77675139,
+        "right_min_mg_x_A": 1.65,
+        "xtb_path_returncode": 1
+      }
+    }
+  },
+  "uks_b3lyp_ma_tzvp_reduction": {
+    "EC_Ref_Calib": {
+      "charge_ox": 0,
+      "charge_red": -1,
+      "E_ox_eh": -342.56963922,
+      "E_red_eh": -342.59082413,
+      "VEA_eV": 0.576,
+      "E_red_est_V_vs_Mg": -1.494,
+      "spin_localization": {
+        "S2": 0.7501,
+        "multiplicity": 2.0001,
+        "mg_spin_mulliken": 0,
+        "ligand_spin_mulliken": 1.0,
+        "total_spin_check": 1.0,
+        "top_spin_atoms": [
+          [
+            "C",
+            0.8908
+          ],
+          [
+            "C",
+            0.8908
+          ],
+          [
+            "C",
+            0.5879
+          ],
+          [
+            "O",
+            -0.5485
+          ],
+          [
+            "O",
+            -0.4121
+          ]
+        ]
+      }
+    },
+    "Free_DME_Calib": {
+      "charge_ox": 0,
+      "charge_red": -1,
+      "E_ox_eh": -309.01209226,
+      "E_red_eh": -309.02118394,
+      "VEA_eV": 0.247,
+      "E_red_est_V_vs_Mg": -1.823,
+      "spin_localization": {
+        "S2": 0.7501,
+        "multiplicity": 2.0001,
+        "mg_spin_mulliken": 0,
+        "ligand_spin_mulliken": 1.0,
+        "total_spin_check": 1.0,
+        "top_spin_atoms": [
+          [
+            "C",
+            0.6707
+          ],
+          [
+            "C",
+            0.6692
+          ],
+          [
+            "O",
+            -0.3604
+          ],
+          [
+            "O",
+            -0.36
+          ],
+          [
+            "C",
+            0.1736
+          ]
+        ]
+      }
+    },
+    "Free_DMA_Calib": {
+      "charge_ox": 0,
+      "charge_red": -1,
+      "E_ox_eh": -287.97752682,
+      "E_red_eh": -287.99506715,
+      "VEA_eV": 0.477,
+      "E_red_est_V_vs_Mg": -1.593,
+      "spin_localization": {
+        "S2": 0.7501,
+        "multiplicity": 2.0001,
+        "mg_spin_mulliken": 0,
+        "ligand_spin_mulliken": 1.0,
+        "total_spin_check": 1.0,
+        "top_spin_atoms": [
+          [
+            "C",
+            3.2381
+          ],
+          [
+            "C",
+            2.3897
+          ],
+          [
+            "C",
+            -2.15
+          ],
+          [
+            "N",
+            -1.5111
+          ],
+          [
+            "C",
+            -0.8226
+          ]
+        ]
+      }
+    },
+    "Free_Betaine_Calib": {
+      "charge_ox": 0,
+      "charge_red": -1,
+      "E_ox_eh": -402.54532322,
+      "E_red_eh": -402.56631063,
+      "VEA_eV": 0.571,
+      "E_red_est_V_vs_Mg": -1.499,
+      "spin_localization": {
+        "S2": 0.7501,
+        "multiplicity": 2.0001,
+        "mg_spin_mulliken": 0,
+        "ligand_spin_mulliken": 0.9999,
+        "total_spin_check": 0.9999,
+        "top_spin_atoms": [
+          [
+            "N",
+            -2.2301
+          ],
+          [
+            "C",
+            0.7477
+          ],
+          [
+            "C",
+            0.7391
+          ],
+          [
+            "C",
+            0.5872
+          ],
+          [
+            "C",
+            0.3446
+          ]
+        ]
+      }
+    }
   }
 }
