@@ -649,33 +649,8 @@
       "VEA_eV": 0.576,
       "E_red_est_V_vs_Mg": -1.494,
       "spin_localization": {
-        "S2": 0.7501,
-        "multiplicity": 2.0001,
-        "mg_spin_mulliken": 0,
-        "ligand_spin_mulliken": 1.0,
-        "total_spin_check": 1.0,
-        "top_spin_atoms": [
-          [
-            "C",
-            0.8908
-          ],
-          [
-            "C",
-            0.8908
-          ],
-          [
-            "C",
-            0.5879
-          ],
-          [
-            "O",
-            -0.5485
-          ],
-          [
-            "O",
-            -0.4121
-          ]
-        ]
+        "status": "omitted_mulliken_diffuse_artifact",
+        "note": "Mulliken populations omitted due to diffuse-basis ill-conditioning."
       }
     },
     "Free_DME_Calib": {
@@ -686,33 +661,8 @@
       "VEA_eV": 0.247,
       "E_red_est_V_vs_Mg": -1.823,
       "spin_localization": {
-        "S2": 0.7501,
-        "multiplicity": 2.0001,
-        "mg_spin_mulliken": 0,
-        "ligand_spin_mulliken": 1.0,
-        "total_spin_check": 1.0,
-        "top_spin_atoms": [
-          [
-            "C",
-            0.6707
-          ],
-          [
-            "C",
-            0.6692
-          ],
-          [
-            "O",
-            -0.3604
-          ],
-          [
-            "O",
-            -0.36
-          ],
-          [
-            "C",
-            0.1736
-          ]
-        ]
+        "status": "omitted_mulliken_diffuse_artifact",
+        "note": "Mulliken populations omitted due to diffuse-basis ill-conditioning."
       }
     },
     "Free_DMA_Calib": {
@@ -723,33 +673,8 @@
       "VEA_eV": 0.477,
       "E_red_est_V_vs_Mg": -1.593,
       "spin_localization": {
-        "S2": 0.7501,
-        "multiplicity": 2.0001,
-        "mg_spin_mulliken": 0,
-        "ligand_spin_mulliken": 1.0,
-        "total_spin_check": 1.0,
-        "top_spin_atoms": [
-          [
-            "C",
-            3.2381
-          ],
-          [
-            "C",
-            2.3897
-          ],
-          [
-            "C",
-            -2.15
-          ],
-          [
-            "N",
-            -1.5111
-          ],
-          [
-            "C",
-            -0.8226
-          ]
-        ]
+        "status": "omitted_mulliken_diffuse_artifact",
+        "note": "Mulliken populations omitted due to diffuse-basis ill-conditioning."
       }
     },
     "Free_Betaine_Calib": {
@@ -760,34 +685,10 @@
       "VEA_eV": 0.571,
       "E_red_est_V_vs_Mg": -1.499,
       "spin_localization": {
-        "S2": 0.7501,
-        "multiplicity": 2.0001,
-        "mg_spin_mulliken": 0,
-        "ligand_spin_mulliken": 0.9999,
-        "total_spin_check": 0.9999,
-        "top_spin_atoms": [
-          [
-            "N",
-            -2.2301
-          ],
-          [
-            "C",
-            0.7477
-          ],
-          [
-            "C",
-            0.7391
-          ],
-          [
-            "C",
-            0.5872
-          ],
-          [
-            "C",
-            0.3446
-          ]
-        ]
+        "status": "omitted_mulliken_diffuse_artifact",
+        "note": "Mulliken populations omitted due to diffuse-basis ill-conditioning."
       }
     }
-  }
+  },
+  "uks_b3lyp_ma_tzvp_method": "RKS/UKS B3LYP-D3BJ / ma-def2-TZVP / IEF-PCM(THF, eps=7.58)"
 }
