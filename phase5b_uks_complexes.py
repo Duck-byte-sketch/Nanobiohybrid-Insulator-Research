@@ -8,7 +8,7 @@ import json
 import time
 from pathlib import Path
 import numpy as np
-from pyscf import dft, gto, solvent
+from pyscf import dft, gto
 
 HARTREE_TO_EV = 27.211386245988
 RES_DIR = Path("results")
@@ -29,10 +29,8 @@ def run_lowmem_sp(xyz_str, charge, spin, basis="def2-svp", eps=7.43):
     mf.direct_scf = True
     mf.xc = "b3lyp"
     mf.disp = "d3bj"
-    mf = solvent.PCM(mf)
-    mf.with_solvent.method = "COSMO"
+    mf = mf.ddCOSMO()
     mf.with_solvent.eps = eps
-    mf.with_solvent.lebedev_order = 11
     mf.conv_tol = 1e-6
     mf.max_cycle = 120
     e_tot = float(mf.kernel())
